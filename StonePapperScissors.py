@@ -10,6 +10,7 @@ import random
 l=['Stone', 'Paper', 'Scissors']
 def play(u):
     c=l[random.randint(0,2)]
+    print("Computer's Choice: ",c)
     if(c=='Stone'):
         if u=='Stone':
             print('Tie')
